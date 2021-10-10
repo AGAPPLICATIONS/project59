@@ -1,0 +1,75 @@
+.parallex_inner {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 25, 0, 1) 2%, rgba(9, 9, 121, 1) 43%, rgba(154, 182, 36, 1) 59%, rgba(0, 212, 255, 1) 95%);
+    background-image: linear-gradient(red, blue, yellow, cyan);
+   
+    z-index: 10
+}
+
+body {
+    text-align: center;
+}
+
+#title {
+    
+    font-family: fantasy;
+    font: 20px
+}
+
+#pic {
+    float: none;
+    padding: 50px;
+    border-radius: 50%;
+
+}
+
+p {
+
+    font-family: cursive;
+    font: 14px;
+
+}
+
+.list {
+
+   float: none;
+    clear:both;
+   margin-right:10px;
+ display: inline;
+    font-size: 17px;
+    font-family: monospace;
+    color: mediumspringgreen;
+    background-image: linear-gradient(red,green,yellow,orange);
+    z-index: 20;
+        
+    
+    
+
+}
+
+.list:hover {
+     
+    font-size: 20px;
+    font-family: monospace;
+    color: blue;
+}
+
+iframe {
+    z-index: 10;
+    height: 300px;
+    width: 100%;
+    
+}
+body{
+    
+    width:1500px;
+}
+ 
+section{
+    
+display: inline;
+    
+}
+ul{
+    position: fixed;
+}
